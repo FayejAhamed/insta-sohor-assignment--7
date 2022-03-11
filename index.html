@@ -63,6 +63,14 @@
             require to compile the JavaScript source code before sending it to the browser.JavaScript has native
             asynchronous mechanisms that let it rect to events.JavaScript is also a dynamically typed language, unlike C
             and C++. Javascript is a single threaded and single concurrent programming language</p>
+        <h3>What does JavaScript event loopdo?</h3>
+        <p>JavaScript code runs single threaded. Only one line of code can read at a single time. The event loop
+            works by
+            making a request to some inside or outside event provider, then calls the
+            relevant event handler.it constantly checks whether or not the call stack is empty. As javascript is a
+            single threaded language, a function
+            that is waiting in call back que, implemnted by event loop and set into call
+            stack. so, in this way javascript can work multifunctionaly by event loop</p>
     </section>
     <footer></footer>
 
